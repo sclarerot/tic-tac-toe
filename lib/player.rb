@@ -1,5 +1,5 @@
 class Player
-  attr_accessor :symbol :wins
+  attr_accessor :symbol, :wins
 
   def initialize(symbol)
     @symbol = symbol
