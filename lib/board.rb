@@ -46,7 +46,7 @@ class Board
       'x'
 
     elsif self.one == 'o' && self.two == 'o' && self.three == 'o'
-      '0'
+      'o'
     elsif self.four == 'o' && self.five == 'o' && self.six == 'o'
       'o'
     elsif self.seven == 'o' && self.eight == 'o' && self.nine == 'o'
@@ -69,4 +69,3 @@ class Board
   end
 
 end
- 
