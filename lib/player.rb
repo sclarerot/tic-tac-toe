@@ -3,11 +3,11 @@ class Player
 
   def initialize(symbol)
     @symbol = symbol
-    wins = 0
+    @wins = 0
   end
 
-  def increment
-    wins += 1
+  def increment_wins
+    self.wins += 1
   end
 
 end
