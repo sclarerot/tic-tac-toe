@@ -113,7 +113,7 @@ while winner == false
     end
 
       if board.check_for_win == 'o'
-        player_one.increment_wins
+        player_two.increment_wins
         round = false
         puts "The score is #{player_one.wins} to #{player_two.wins}!"
       else
