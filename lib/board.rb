@@ -17,6 +17,7 @@ class Board
     puts "#{one} #{two} #{three}"
     puts "#{four} #{five} #{six}"
     puts "#{seven} #{eight} #{nine}"
+    puts ""
   end
 
   def reserved?(tile)
