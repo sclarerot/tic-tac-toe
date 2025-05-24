@@ -25,7 +25,6 @@ while winner == false
     round = true
   end
 
-
   while round == true
 
     while player_one_turn == true do
